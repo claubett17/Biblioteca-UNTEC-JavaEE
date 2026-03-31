@@ -9,7 +9,7 @@ Desarrollado con **Java 17**, **Jakarta Servlets** y **JSP**, utilizando **Maven
 Recorrido funcional de la aplicación, arquitectura del código y flujo de datos.
 
 > **[Ver Presentación en YouTube](https://youtu.be/fyiQixJgdBw)**
-
+* **Repositorio GitHub:** [https://github.com/claubett17/Biblioteca-UNTEC-JavaEE](https://github.com/claubett17/Biblioteca-UNTEC-JavaEE)
 ---
 
 ## 🏛️ Arquitectura y Tecnologías
