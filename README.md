@@ -79,7 +79,7 @@ biblioteca-untec1/
 1. **Base de Datos:** Ejecutar el script en `/sql/biblioteca_db.sql` en su instancia de MySQL.
 2. **Dependencias:** Al ser un proyecto **Maven**, ejecutar `Maven Install` para descargar las librerías necesarias.
 3. **Servidor:** Desplegar en **Apache Tomcat 10**. (Importante: Usa el namespace `jakarta.*`).
-4. **Ejecución:** Acceder vía `http://localhost:8080/biblioteca-untec1.
+4. **Ejecución:** Acceder vía `http://localhost:8080/biblioteca-untec
 
 ---
 
