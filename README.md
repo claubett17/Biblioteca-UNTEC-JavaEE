@@ -55,6 +55,8 @@ Interfaz de vanguardia inspirada en la tendencia Glassmorphism:
 2. Configuración: Actualizar credenciales en la clase Conexion.java (paquete utils).
 3. Ejecución: Desplegar el archivo .WAR en Tomcat o ejecutar desde Eclipse.
 
+4. Nota: Si su configuración local de MySQL tiene un usuario o contraseña distintos, por favor actualice las constantes USER y PASS en la clase ConexionDB.java antes de ejecutar.
+
 ---
 
 ## ✅ Entregables de la Evaluación
