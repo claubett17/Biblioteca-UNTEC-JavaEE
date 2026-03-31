@@ -1,0 +1,120 @@
+/* --- VARIABLES DE COLOR --- */
+:root {
+    --aqua: #74ebd5;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --error-red: #ff4b4b;
+    --success-green: #28a745;
+}
+
+/* --- CONTENEDOR DE TABLAS Y CONTENIDO --- */
+.content-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+/* --- DISEÑO DE TABLA --- */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Encabezados de la tabla (TH) */
+.table-custom th {
+    text-align: left;
+    padding: 18px 15px; 
+    background: rgba(116, 235, 213, 0.2); 
+    color: var(--aqua);
+    text-transform: uppercase;
+    font-size: 16px !important; /* Un poco más pequeño que el contenido para que no compita */
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(116, 235, 213, 0.3);
+}
+
+/* Contenido de la tabla (TD) - ESTO ES LO QUE QUERÍAS AGRANDAR */
+.table-custom td {
+    padding: 20px 15px; /* Más espacio vertical para que la letra grande respire */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 18px !important; /* Letra grande y legible */
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Resaltado para nombres o títulos en negrita dentro de la tabla */
+.table-custom td strong {
+    font-size: 19px !important; 
+    color: #fff;
+    font-weight: 600;
+}
+
+.table-custom tr:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transition: 0.2s;
+}
+
+/* --- BOTONES --- */
+.btn-action {
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-edit { 
+    background: var(--aqua); 
+    color: #1a1a1a; 
+    border: none; 
+}
+
+.btn-edit:hover { 
+    filter: brightness(1.1); 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(116, 235, 213, 0.3);
+}
+
+/* --- BADGES DE ESTADO --- */
+.badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px !important; /* Badges más legibles */
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge-activo { 
+    background: rgba(116, 235, 213, 0.15); 
+    color: var(--aqua); 
+    border: 1px solid var(--aqua); 
+}
+
+.badge-atrasado { 
+    background: rgba(255, 75, 75, 0.15); 
+    color: var(--error-red); 
+    border: 1px solid var(--error-red); 
+}
+
+.badge-devuelto { 
+    background: rgba(40, 167, 69, 0.15); 
+    color: #81c784; 
+    border: 1px solid #81c784; 
+}
+
+/* Estilo para los iconos dentro de la tabla */
+.table-custom i {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
